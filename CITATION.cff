@@ -1,0 +1,18 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: ImagePassthroughServer
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Richard
+    family-names: Tweed
+repository-code: >-
+  https://github.com/RichardoC/image-passthrough-sigbovik-2024
+abstract: >-
+  golang server which passes through HTTP requests to an
+  upstream server
+license: MIT
