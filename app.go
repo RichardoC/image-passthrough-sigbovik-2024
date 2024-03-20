@@ -53,6 +53,8 @@ func main() {
 		// log.Printf("Got response body: %+v \n", body)
 
 		body, err := io.ReadAll(r.Body)
+		inputBodyStr := string(body)
+		log.Printf("Input body bytes: %s \n", inputBodyStr)
 		if err != nil {
 			log.Print(err)
 			return
