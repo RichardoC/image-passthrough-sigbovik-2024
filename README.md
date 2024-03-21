@@ -1,9 +1,5 @@
-# go-example
+# Exploring the Viability of Utilising Multi-Modal GPTModels with Local Hardware for Image Text Detection - Richard Tweed - SIGBOVIK2024.
 
-A minimal Go application for [fly.io Getting Started](https://fly.io/docs/getting-started/golang/) documentation and tutorials.
+Source code and pdf of this paper, and code for the proxy referenced.
 
-To get started:
-
-1. clone this repo
-2. `flyctl launch`
-3. view the deployed app with flyctl open
+Based on [fly.io Getting Started](https://fly.io/docs/getting-started/golang/) documentation and tutorials.
