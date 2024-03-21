@@ -52,6 +52,8 @@ func main() {
 		// body, err := io.ReadAll(res.Body) // TODO, have this streaming
 		// log.Printf("Got response body: %+v \n", body)
 
+		// This code is largely based on https://stackoverflow.com/a/66632056/16365314
+
 		body, err := io.ReadAll(r.Body)
 		inputBodyStr := string(body)
 		log.Printf("Input body bytes: %s \n", inputBodyStr)
